@@ -37,7 +37,7 @@ data class GameConfig(val mode: Int, val downscaleFactor: Float, val useAngle: B
         var useAngle = false
 
         fun build() = listOf(
-            GameConfig(GameManager.GAME_MODE_PERFORMANCE, .7f, useAngle),
+            GameConfig(GameManager.GAME_MODE_PERFORMANCE, .4f, useAngle),
             GameConfig(GameManager.GAME_MODE_BATTERY, .8f, useAngle)
         )
     }
